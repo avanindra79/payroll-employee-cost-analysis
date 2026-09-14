@@ -4,7 +4,19 @@ An Excel-based payroll and employee cost analysis model developed during my Fina
 
 The project focuses on understanding employee-related costs from a financial analysis perspective and evaluating how changes in hiring, salary revisions and overtime can affect overall employer cost.
 
----
+## Project Preview
+
+### Dashboard
+
+![Payroll & Employee Cost Dashboard](Screenshots/dashboard.png)
+
+### Department Cost Analysis
+
+![Department Cost Analysis](Screenshots/department-cost-analysis.png)
+
+### Scenario Analysis
+
+![Scenario Analysis](Screenshots/scenario-analysis.png)
 
 ## Project Overview
 
@@ -18,10 +30,6 @@ To further develop my financial analysis skills, I built an Excel-based analytic
 - Employee cost variance
 - Scenario analysis
 - Management dashboard
-
-The model was created to understand how payroll information can be converted into meaningful financial insights for decision-making.
-
----
 
 ## Key Results
 
@@ -37,13 +45,11 @@ The model analyzes a simulated workforce of 100 employees across 6 departments.
 | Highest total employee-cost department | Marketing |
 | Highest cost per employee | Technology |
 
-### Department-level insights
+### Key Insights
 
 - Marketing represents approximately 28.5% of total employee cost, primarily due to its higher headcount.
 - Technology has the highest average employee cost at approximately ₹99,047 per employee per month.
 - Sales has the highest unfavourable Budget vs Actual variance at 3.9%.
-
----
 
 ## Scenario Analysis
 
@@ -55,69 +61,34 @@ The model evaluates the financial impact of different workforce and compensation
 | Salary Revision +8% | +₹6.94 lakh | +₹83.24 lakh |
 | Overtime Reduction -20% | -₹51,534 | -₹6.18 lakh |
 
-These scenarios are illustrative projections based on assumptions within the model and are intended to demonstrate financial impact analysis rather than predict actual company outcomes.
-
----
+These are illustrative projections based on assumptions within the model.
 
 ## Excel Model Structure
 
-The workbook contains the following analytical sections:
+The workbook contains:
 
-### 1. Employee Data
-Contains the simulated employee dataset used for the analysis.
-
-### 2. Payroll Calculation
-Calculates:
-
-- Gross salary
-- Employee PF
-- Tax
-- Net salary
-- Employer contribution
-- Employer cost
-
-### 3. Department Cost Analysis
-Analyzes employee costs by department using:
-
-- Headcount
-- Gross salary
-- Overtime
-- Incentives
-- Employer cost
-- Cost per employee
-- Percentage of total cost
-
-### 4. Budget vs Actual
-Compares budgeted employee costs with modeled actual costs and calculates:
-
-- Variance
-- Variance %
-- Favourable / Unfavourable status
-
-### 5. Scenario Analysis
-Evaluates the impact of:
-
-- Additional hiring
-- Salary revisions
-- Overtime reduction
-
-### 6. Dashboard
-Provides a consolidated view of key employee-cost metrics and department-level cost distribution.
-
----
+- Employee Data
+- Payroll Calculation
+- Department Cost Analysis
+- Budget vs Actual
+- Scenario Analysis
+- Dashboard
+- Management Insights
 
 ## Tools Used
 
 - Microsoft Excel
-- Pivot Tables
 - Excel formulas
+- Pivot Tables
 - Data validation
 - Charts
 - Dashboarding
 - Scenario analysis
 - Financial analysis
 
----
+## Excel Model
+
+[View / Download the Excel Model](Excel_Model/Adtric_Payroll_Employee_Cost_Analysis_Model.xlsx)
 
 ## Data Disclaimer
 
@@ -127,24 +98,18 @@ The model was developed based on learning and exposure gained during my Financia
 
 This project should therefore be viewed as an analytical learning project rather than an official company implementation.
 
----
-
 ## Key Learning
 
-This project helped me understand that payroll is not only an operational process.
+This project helped me understand how payroll data can be used beyond salary calculation to analyze:
 
-When structured properly, employee-cost data can also be used to analyze:
-
-- Cost drivers
+- Employee cost drivers
 - Department-level spending
 - Budget variances
 - Hiring decisions
 - Salary revision impact
 - Overtime-related costs
 
-The project strengthened my practical understanding of Excel-based financial analysis and employee cost management.
-
----
+It strengthened my practical understanding of Excel-based financial analysis and employee cost management.
 
 ## Author
 
@@ -154,4 +119,4 @@ MBA – Finance Major | Business Analytics Minor
 
 Financial Analysis | Excel | Business Analytics
 
-LinkedIn: www.linkedin.com/in/avanindra-pratap-singh
+LinkedIn: https://www.linkedin.com/in/avanindra-pratap-singh/
